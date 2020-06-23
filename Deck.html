@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+        <title>추천 덱</title>
+
+        <style>
+          /*네이게이션 바*/
+          body {
+              margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
+              background-color: black;
+              color: white;
+          }
+          .nav-container {
+              display: flex;
+              flex-direction: row;
+              width: 100%;
+              margin: 0; /*쓸 데 없는 공백 제거*/
+              padding: 0; /*쓸 데 없는 공백 제거*/
+              background-color: silver;
+              list-style-type: none; /*목록 기호 제거*/
+          }
+          .nav-item {
+              padding: 15px;
+              cursor: pointer; /*마우스 커서를 pointer 모양으로 함*/
+          }
+          .nav-item a { /*nav-item 클래스 아래의 a 요소를 선택함*/
+              text-align: center;
+              text-decoration: none; /*밑줄 없앰*/
+              color: white;
+          }
+          .nav-item:nth-child(5) {/*가상 클래스 선택자 :nth-child(n)는 n번째의 요소를 선택합니다. */
+              background-color: white;
+              color: black;
+          }
+
+          .nav-item:hover {
+              background-color: grey;
+          }
+          .A{
+            padding-left: 50px;
+          }
+          .B{
+            padding-left: 100px;
+          }
+          .C{
+            padding-left: 150px;
+          }
+          .cyberneticManareaver{
+            margin-top: 20px;
+            margin-left: 100px; margin-right: 100px;
+            padding-top: 10px; padding-bottom: 10px;
+            background-color: silver;
+          }
+          .sniperAstro{
+            margin-top: 20px;
+            margin-left: 100px; margin-right: 100px;
+            padding-top: 10px; padding-bottom: 10px;
+            background-color: silver;
+          }
+          .brawlerblaster{
+            margin-top: 20px;
+            margin-left: 100px; margin-right: 100px;
+            padding-top: 10px; padding-bottom: 10px;
+            background-color: silver;
+          }
+          .brawlermystic {
+            margin-top: 20px;
+            margin-left: 100px; margin-right: 100px;
+            padding-top: 10px; padding-bottom: 10px;
+            background-color: silver;
+          }
+          .mysticvanguard{
+            margin-top: 20px;
+            margin-left: 100px; margin-right: 100px;
+            padding-top: 10px; padding-bottom: 10px;
+            background-color: silver;
+          }
+          @media screen and (max-width: 400px) {
+            nav{
+              width: 275px;
+            }
+            .A{
+              padding-left: 0px;
+            }
+            .B{
+              padding-left: 16px;
+            }
+            .C{
+              padding-left: 0px;
+            }
+            .cyberneticManareaver{
+              margin-top: 20px;
+              margin-left: 0px; margin-right: 0px;
+            }
+            .sniperAstro{
+              margin-top: 20px;
+              margin-left: 0px; margin-right: 0px;
+            }
+            .brawlerblaster {
+              margin-top: 20px;
+              margin-left: 0px; margin-right: 0px;
+            }
+
+          }
+        </style>
+    </head>
+    <body>
+      <header>
+        <h1><a href ="main.html">TFT</a></h1>
+      </header>
+
+      <nav>
+        <ul class="nav-container">
+          <li class="nav-item"><a href ="Deck.html">추천 덱</a></li>
+          <li class="nav-item"><a href ="Champion.html">챔피언</a></li>
+          <li class="nav-item"><a href ="Synergy.html">시너지</a></li>
+          <li class="nav-item"><a href ="Item.html">아이템</a></li>
+          <li class="nav-item"><a href ="Note.html">패치노트</a></li>
+        </ul>
+      </nav>
+
+      <div class="cyberneticManareaver">
+        사이버 마나약탈자
+
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">75</img>
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_cybernetic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_manareaver.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blademaster.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\fiora.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\leona.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vayne.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\riven.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\irelia.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\thresh.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ekko.png" width="40px">
+
+
+      </div>
+
+      <div class="sniperAstro">
+        우주비행사 저격수
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">81
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_sniper.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_astro.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_celestial.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\caitlyn.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\nautilus.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ashe.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\monkeyking.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jhin.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\teemo.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\lulu.png" width="40px">
+      </div>
+
+      <div class="brawlerblaster">
+        싸움꾼 총잡이
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">60
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\graves.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\kogmaw.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\jinx.png" width="40px">
+      </div>
+
+      <div class="brawlermystic">
+        싸움꾼 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\soraka.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+
+      <div class="mysticvanguard">
+        선봉대 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_vanguard.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_darkstar.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\nautilus.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\mordekaiser.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\jayce.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\karma.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\cassiopeia.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\sorakr.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\monkeyking.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+
+      <div class="brawlermystic">
+        싸움꾼 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\soraka.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+
+      <div class="brawlermystic">
+        싸움꾼 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\soraka.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+
+      <div class="brawlermystic">
+        싸움꾼 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\soraka.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+
+      <div class="brawlermystic">
+        싸움꾼 신비술사
+        <img class="A" src="C:\Users\ghkdt\Desktop\Project\synergy\ico-gold.png" width="15px">78
+
+        <img class="B" src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_brawler.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_chrono.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_mystic.png" width="30px">
+        <img src="C:\Users\ghkdt\Desktop\Project\synergy\trait_icon_blaster.png" width="30px">
+
+        <img class="C" src="C:\Users\ghkdt\Desktop\Project\Champion\malphite.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\blitzcrank.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\vi.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\ezreal.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\gnar.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\soraka.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px">
+        <img src="C:\Users\ghkdt\Desktop\Project\Champion\lulu.png" width="40px">
+      </div>
+    </body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+    <link href="Champion.css" rel="stylesheet" type="text/css">
+    <title>Champion</title>
+    <script>
+      function filter(){
+
+            var value, name, item, i;
+
+            value = document.getElementById("value").value.toUpperCase();
+            item = document.getElementsByClassName("item");
+
+            for(i=0;i<item.length;i++){
+              name = item[i].getElementsByClassName("name");
+              if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+                item[i].style.display = "inline-block";
+              }
+              else{
+                item[i].style.display = "none";
+              }
+            }
+          }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1><a class="topic" href ="main.html">TFT</a></h1>
+    </header>
+
+    <nav>
+      <ul class="nav-container">
+        <li class="nav-item"><a href ="Champion.html">챔피언</a></li>
+        <li class="nav-item"><a href ="Synergy.html">시너지</a></li>
+        <li class="nav-item"><a href ="Item.html">아이템</a></li>
+        <li class="nav-item"><a href ="https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-10-12-notes/" target="_blank">패치노트</a></li>
+        <li class="nav-item"><a href ="https://lolchess.gg/tft/3.5" target="_blank">시즌3.5</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="right">
+        <input onkeyup="filter()" type="text" id="value" placeholder="챔피언명...">
+        <div class="container">
+          <div class="item">
+            <a href="gangplank.html" >
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\gangplank.png" width="75px">
+              <div class="name">갱플랭크</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="graves.html" >
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\graves.png" width="75px">
+              <div class="name">그레이브즈</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="gnar.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\gnar.png" width="75px">
+              <div class="name">나르</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\nautilus.png" width="75px">
+              <div class="name">노틸러스</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\nocturne.png" width="75px">
+              <div class="name">녹턴</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\neeko.png" width="75px">
+              <div class="name">니코</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\darius.png" width="75px">
+              <div class="name">다리우스</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\rakan.png" width="75px">
+              <div class="name">라칸</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\rumble.png" width="75px">
+              <div class="name">럼블</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\leona.png" width="75px">
+              <div class="name">레오나</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\lucian.png" width="75px">
+              <div class="name">루시안</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\lulu.png" width="75px">
+              <div class="name">룰루</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\riven.png" width="75px">
+              <div class="name">리븐</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\masteryi.png" width="75px">
+              <div class="name">마스터이</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\malphite.png" width="75px">
+              <div class="name">말파이트</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\mordekaiser.png" width="75px">
+              <div class="name">모데카이저</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\bard.png" width="75px">
+              <div class="name">바드</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\vi.png" width="75px">
+              <div class="name">바이</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\vayne.png" width="75px">
+              <div class="name">베인</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\blitzcrank.png" width="75px">
+              <div class="name">블리츠크랭크</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\viktor.png" width="75px">
+              <div class="name">빅토르</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\poppy.png" width="75px">
+              <div class="name">뽀삐</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\shaco.png" width="75px">
+              <div class="name">샤코</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\soraka.png" width="75px">
+              <div class="name">소라카</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\shen.png" width="75px">
+              <div class="name">쉔</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\xinzhao.png" width="75px">
+              <div class="name">신짜오</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\syndra.png" width="75px">
+              <div class="name">신드라</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\thresh.png" width="75px">
+              <div class="name">쓰레쉬</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\ahri.png" width="75px">
+              <div class="name">아리</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\aurelionsol.png" width="75px">
+              <div class="name">아우렐리온 솔</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\annie.png" width="75px">
+              <div class="name">애니</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\ashe.png" width="75px">
+              <div class="name">애쉬</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\yasuo.png" width="75px">
+              <div class="name">야스오</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\ekko.png" width="75px">
+              <div class="name">에코</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\monkeyking.png" width="75px">
+              <div class="name">오공</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\urgot.png" width="75px">
+              <div class="name">우르곳</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\irelia.png" width="75px">
+              <div class="name">이렐리아</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\ezreal.png" width="75px">
+              <div class="name">이즈리얼</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\illaoi.png" width="75px">
+              <div class="name">일라오이</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\jarvaniv.png" width="75px">
+              <div class="name">자르반 4세</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\xayah.png" width="75px">
+              <div class="name">자야</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\janna.png" width="75px">
+              <div class="name">잔나</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\zed.png" width="75px">
+              <div class="name">제드</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\xerath.png" width="75px">
+              <div class="name">제라스</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\jayce.png" width="75px">
+              <div class="name">제이스</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\zoe.png" width="75px">
+              <div class="name">조이</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\ziggs.png" width="75px">
+              <div class="name">직스</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\jhin.png" width="75px">
+              <div class="name">진</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="75px">
+              <div class="name">징크스</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\karma.png" width="75px">
+              <div class="name">카르마</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\cassiopeia.png" width="75px">
+              <div class="name">카시오페아</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\caitlyn.png" width="75px">
+              <div class="name">케이틀린</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\kogmaw.png" width="75px">
+              <div class="name">코르모</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\twistedfate.png" width="75px">
+              <div class="name">트위스티드 페이트</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\teemo.png" width="75px">
+              <div class="name">티모</div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\fiora.png" width="75px">
+              <div class="name">피오라</div>
+            </a>
+          </div>
+          <br>
+
+          <div class="item">
+            <a href="nautilus.html">
+              <img src="C:\Users\ghkdt\Desktop\Project\champion\fizz.png" width="75px">
+              <div class="name">피즈</div>
+            </a>
+          </div>
+      </div>
+      </section>
+      <section id="left">
+        <table>
+          <tr>
+            <th colspan = "5" rowspan="3"><img src="C:\Users\ghkdt\Desktop\Project\g.jpg" width="610px" height="200px"></th>
+            <th>비용</th>
+            <th>1 | 1/3/5</th>
+          </tr>
+          <tr>
+            <th>계열</th>
+            <th>우주해적</th>
+          </tr>
+          <tr>
+            <th>직업</th>
+            <th>총잡이</th>
+          </tr>
+          <tr>
+            <th colspan="7">능력치</th>
+          </tr>
+          <tr>
+            <th>체력</th>
+            <th>공격력</th>
+            <th>공격속도</th>
+            <th>사거리</th>
+            <th>DPS</th>
+            <th>방어력</th>
+            <th>마법저항력</th>
+          </tr>
+          <tr>
+            <th>650/1170/2106</th>
+            <th>55/99/1782</th>
+            <th>0.55</th>
+            <th>1</th>
+            <th>30/54/98</th>
+            <th>40</th>
+            <th>30</th>
+          </tr>
+          <tr>
+            <th rowspan="2">스킬</th>
+            <th colspan="6">연막탄</th>
+          </tr>
+          <tr>
+            <th>액티브</th>
+            <th>마나 50/80</th>
+            <th>피해</th>
+            <th colspan="3">150/200/400</th>
+          </tr>
+          <tr>
+            <th colspan="7">그레이브즈가 공격 속도가 가장 높은 적을 향해 연막탄을 발사합니다.
+              연막탄은 적중 시 폭발하며 주변의 모든 적은 마법 피해를 입고 수 초 동안 공격이 빗나갑니다. 실명 지속시간 : 2/3/5초</th>
+          </tr>
+        </table>
+        <div style="background-color: orange; padding: 10px">
+            시너지
+        </div>
+        <div>
+          <table>
+            <tr>
+              <th>우주해적</th>
+              <th>
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\graves.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\gangplank.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\darius.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\jayce.png" width="40px">
+                <br>
+                우주 해적 챔피언이 마무리 일격 시 일정 확률로 골드와 아이템이 추가로 떨어집니다. <br>
+                2 -> 50% 확률로 1골드 획득 <br>
+                4 -> 50% 확률로 1골드 및 15% 확률로 기본 아이템 획득 <br>
+              </th>
+            </tr>
+            <tr>
+              <th>총잡이</th>
+              <th>
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\graves.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\lucian.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\kogmaw.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\ezreal.png" width="40px">
+                <img src="C:\Users\ghkdt\Desktop\Project\champion\jinx.png" width="40px"> <br>
+                2 -> 추가 공격 3회<br>
+                4 -> 추가 공격 6회
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div style="background-color: orange; padding: 10px">
+          추천아이템
+        </div>
+        <div>
+          <img src="C:\Users\ghkdt\Desktop\Project\item\Zephyr.png" width="40px">
+          <img src="C:\Users\ghkdt\Desktop\Project\item\RedBuff.png" width="40px">
+          <img src="C:\Users\ghkdt\Desktop\Project\item\3107.png" width="40px">
+          <img src="C:\Users\ghkdt\Desktop\Project\item\3190.png" width="40px">
+          <img src="C:\Users\ghkdt\Desktop\Project\item\ZzRotPortal.png" width="40px">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
